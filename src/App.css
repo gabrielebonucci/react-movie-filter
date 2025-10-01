@@ -1,1 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Sometype Mono", monospace;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 900px;
+  background-image: url(./assets/vecteezy_blank-smartphone-with-popcorn-film-strip-clapperboard-on_11892107.jpg);
+  text-align: center;
+  padding: 30px 60px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.filter-container {
+  margin-bottom: 25px;
+}
+
+label {
+  font-size: 1rem;
+  color: #606770;
+}
+
+select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #000306;
+}
+
+.movie-list {
+  list-style: none;
+}
+
+.movie-list li {
+  background-color: #6bb5ff;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
