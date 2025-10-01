@@ -1,4 +1,4 @@
-import { useEffect, useState, userEffect } from "react";
+import { useEffect, useState } from "react";
 import MovieList from "./components/MovieList";
 import GenreFilter from "./components/GenreFilter";
 import "./App.css";
